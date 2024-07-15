@@ -1,19 +1,17 @@
-"use client";
+import React from 'react'
 
-import React from "react";
-
-function Dashboard() {
+const Words = () => {
   return (
     <>
       <div className="flex items-center">
-        <h1 className="text-lg font-semibold md:text-2xl">Home</h1>
+        <h1 className="text-lg font-semibold md:text-2xl">Words</h1>
       </div>
       <div
         className="flex flex-1 items-center justify-center rounded-lg border border-dashed shadow-sm"
         x-chunk="dashboard-02-chunk-1"
       ></div>
     </>
-  );
+  )
 }
 
-export default Dashboard;
+export default Words
