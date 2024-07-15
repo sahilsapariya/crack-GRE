@@ -39,7 +39,6 @@ const AddWords = () => {
   useEffect(() => {
     const fetchSections = async () => {
       const res = await getData("/api/v1/master/section");
-      console.log(res);
       setSections(res.data);
     };
     fetchSections();
